@@ -12,12 +12,16 @@ lerna-debug.log*
 /dist
 /dist-ssr
 /coverage
+node_modules/
+jspm_packages/
+web_modules/
 
 # Environment variables
 .env
 .env.local
 .env.*.local
 .env.development.local
+.env.example
 
 # Vite-specific cache folder
 .vite
@@ -40,3 +44,33 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 *.swp
+
+# Other directories
+.grunt
+bower_components
+build/Release
+lib-cov
+
+# Other cache and logs
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+.tgz
+.yarn-integrity
+
+# Build and output directories
+.next
+.nuxt
+dist
+.vuepress/dist
+.svelte-kit/
+.vitepress/dist
+
+# Various tool outputs
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.firebase/
+.tern-port
