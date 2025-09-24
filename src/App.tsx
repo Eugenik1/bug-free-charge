@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ConnectWallet from "./components/ConnectWallet";
 import NetworkSwitcher from "./components/NetworkSwitcher";
 import MintButton from "./components/MintButton";
